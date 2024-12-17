@@ -151,24 +151,6 @@
       ]
     },
     {
-      "tag":"China",
-      "type":"selector",
-      "outbounds":[
-        "direct",
-        "Proxy"
-      ],
-      "default": "direct"
-    },
-    {
-      "tag":"AdBlock",
-      "type":"selector",
-      "outbounds":[
-        "block",
-        "direct"
-      ],
-      "default": "block"
-    },
-    {
       "tag":"HongKong",
       "type":"selector",
       "outbounds":[
@@ -240,6 +222,24 @@
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
+    },
+    {
+      "tag":"China",
+      "type":"selector",
+      "outbounds":[
+        "direct",
+        "Proxy"
+      ],
+      "default": "direct"
+    },
+    {
+      "tag":"AdBlock",
+      "type":"selector",
+      "outbounds":[
+        "block",
+        "direct"
+      ],
+      "default": "block"
     },
     {
       "type": "direct",
